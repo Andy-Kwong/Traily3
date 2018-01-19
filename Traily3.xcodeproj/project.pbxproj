@@ -15,6 +15,7 @@
 		C09381B42011A8A500881CB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09381B22011A8A500881CB5 /* LaunchScreen.storyboard */; };
 		C09381BD2011A9FB00881CB5 /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09381BC2011A9FB00881CB5 /* Mapbox.framework */; };
 		C09381BE2011A9FB00881CB5 /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C09381BC2011A9FB00881CB5 /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E673B9582011C417001F3EAE /* camera.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E673B9562011C417001F3EAE /* camera.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		C09381B32011A8A500881CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C09381B52011A8A500881CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C09381BC2011A9FB00881CB5 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
+		E673B9562011C417001F3EAE /* camera.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = camera.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				C09381A82011A8A500881CB5 /* MapViewController.swift */,
 				C09381AA2011A8A500881CB5 /* Main.storyboard */,
 				C09381B02011A8A500881CB5 /* Assets.xcassets */,
+				E673B9562011C417001F3EAE /* camera.xcassets */,
 				C09381B22011A8A500881CB5 /* LaunchScreen.storyboard */,
 				C09381B52011A8A500881CB5 /* Info.plist */,
 				C09381AD2011A8A500881CB5 /* Traily3.xcdatamodeld */,
@@ -150,6 +153,7 @@
 				C09381B42011A8A500881CB5 /* LaunchScreen.storyboard in Resources */,
 				C09381B12011A8A500881CB5 /* Assets.xcassets in Resources */,
 				C09381AC2011A8A500881CB5 /* Main.storyboard in Resources */,
+				E673B9582011C417001F3EAE /* camera.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,14 +320,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GZGUE69R79;
+				DEVELOPMENT_TEAM = 9K453BMNZ9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Traily3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ly.trailwise.Traily3;
+				PRODUCT_BUNDLE_IDENTIFIER = ly.trailwise.Traily3jeff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -335,14 +339,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GZGUE69R79;
+				DEVELOPMENT_TEAM = 9K453BMNZ9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Traily3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ly.trailwise.Traily3;
+				PRODUCT_BUNDLE_IDENTIFIER = ly.trailwise.Traily3jeff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
