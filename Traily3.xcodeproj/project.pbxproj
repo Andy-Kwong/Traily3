@@ -15,10 +15,9 @@
 		C09381B42011A8A500881CB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09381B22011A8A500881CB5 /* LaunchScreen.storyboard */; };
 		C09381BD2011A9FB00881CB5 /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09381BC2011A9FB00881CB5 /* Mapbox.framework */; };
 		C09381BE2011A9FB00881CB5 /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C09381BC2011A9FB00881CB5 /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F99B15802011BA8500DB4BBA /* tracks.geojson in Resources */ = {isa = PBXBuildFile; fileRef = F99B157F2011BA8500DB4BBA /* tracks.geojson */; };
-		F99B15822011BABB00DB4BBA /* tracks.geojson in Resources */ = {isa = PBXBuildFile; fileRef = F99B15812011BABB00DB4BBA /* tracks.geojson */; };
 		F99B15842011BC3500DB4BBA /* tracks2.geojson in Resources */ = {isa = PBXBuildFile; fileRef = F99B15832011BC3500DB4BBA /* tracks2.geojson */; };
-		F99B15862011BF4900DB4BBA /* waypoints.geojson in Resources */ = {isa = PBXBuildFile; fileRef = F99B15852011BF4900DB4BBA /* waypoints.geojson */; };
+		F99B15892011C69B00DB4BBA /* waypoints.geojson in Resources */ = {isa = PBXBuildFile; fileRef = F99B15882011C69B00DB4BBA /* waypoints.geojson */; };
+		F99B158B2011D16900DB4BBA /* camera.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F99B158A2011D16900DB4BBA /* camera.xcassets */; };
 		F9EF89082011B4A900FCC08D /* waypoints.gejson in Resources */ = {isa = PBXBuildFile; fileRef = F9EF89072011B4A900FCC08D /* waypoints.gejson */; };
 		F9EF890A2011B71900FCC08D /* example.geojson in Resources */ = {isa = PBXBuildFile; fileRef = F9EF89092011B71900FCC08D /* example.geojson */; };
 /* End PBXBuildFile section */
@@ -47,10 +46,9 @@
 		C09381B32011A8A500881CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C09381B52011A8A500881CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C09381BC2011A9FB00881CB5 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
-		F99B157F2011BA8500DB4BBA /* tracks.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = tracks.geojson; path = ../../../../../tracks.geojson; sourceTree = "<group>"; };
-		F99B15812011BABB00DB4BBA /* tracks.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = tracks.geojson; path = ../../../../../tracks.geojson; sourceTree = "<group>"; };
 		F99B15832011BC3500DB4BBA /* tracks2.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tracks2.geojson; sourceTree = "<group>"; };
-		F99B15852011BF4900DB4BBA /* waypoints.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = waypoints.geojson; path = ../../../../../waypoints.geojson; sourceTree = "<group>"; };
+		F99B15882011C69B00DB4BBA /* waypoints.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = waypoints.geojson; path = ../../../../../../Downloads/waypoints.geojson; sourceTree = "<group>"; };
+		F99B158A2011D16900DB4BBA /* camera.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = camera.xcassets; sourceTree = "<group>"; };
 		F9EF89072011B4A900FCC08D /* waypoints.gejson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = waypoints.gejson; sourceTree = "<group>"; };
 		F9EF89092011B71900FCC08D /* example.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = example.geojson; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,11 +85,10 @@
 		C09381A52011A8A500881CB5 /* Traily3 */ = {
 			isa = PBXGroup;
 			children = (
-				F99B157F2011BA8500DB4BBA /* tracks.geojson */,
-				F99B15812011BABB00DB4BBA /* tracks.geojson */,
+				F99B15882011C69B00DB4BBA /* waypoints.geojson */,
 				C09381A62011A8A500881CB5 /* AppDelegate.swift */,
 				F9EF89092011B71900FCC08D /* example.geojson */,
-				F99B15852011BF4900DB4BBA /* waypoints.geojson */,
+				F99B158A2011D16900DB4BBA /* camera.xcassets */,
 				F99B15832011BC3500DB4BBA /* tracks2.geojson */,
 				C09381A82011A8A500881CB5 /* MapViewController.swift */,
 				F9EF89072011B4A900FCC08D /* waypoints.gejson */,
@@ -165,15 +162,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F99B158B2011D16900DB4BBA /* camera.xcassets in Resources */,
 				F9EF89082011B4A900FCC08D /* waypoints.gejson in Resources */,
 				C09381B42011A8A500881CB5 /* LaunchScreen.storyboard in Resources */,
 				F9EF890A2011B71900FCC08D /* example.geojson in Resources */,
-				F99B15822011BABB00DB4BBA /* tracks.geojson in Resources */,
+				F99B15892011C69B00DB4BBA /* waypoints.geojson in Resources */,
 				F99B15842011BC3500DB4BBA /* tracks2.geojson in Resources */,
 				C09381B12011A8A500881CB5 /* Assets.xcassets in Resources */,
 				C09381AC2011A8A500881CB5 /* Main.storyboard in Resources */,
-				F99B15802011BA8500DB4BBA /* tracks.geojson in Resources */,
-				F99B15862011BF4900DB4BBA /* waypoints.geojson in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
