@@ -8,22 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		C09381A72011A8A500881CB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09381A62011A8A500881CB5 /* AppDelegate.swift */; };
-		C09381A92011A8A500881CB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09381A82011A8A500881CB5 /* ViewController.swift */; };
+		C09381A92011A8A500881CB5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09381A82011A8A500881CB5 /* MapViewController.swift */; };
 		C09381AC2011A8A500881CB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09381AA2011A8A500881CB5 /* Main.storyboard */; };
 		C09381AF2011A8A500881CB5 /* Traily3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C09381AD2011A8A500881CB5 /* Traily3.xcdatamodeld */; };
 		C09381B12011A8A500881CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C09381B02011A8A500881CB5 /* Assets.xcassets */; };
 		C09381B42011A8A500881CB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09381B22011A8A500881CB5 /* LaunchScreen.storyboard */; };
+		C09381BD2011A9FB00881CB5 /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09381BC2011A9FB00881CB5 /* Mapbox.framework */; };
+		C09381BE2011A9FB00881CB5 /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C09381BC2011A9FB00881CB5 /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C09381BF2011A9FB00881CB5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C09381BE2011A9FB00881CB5 /* Mapbox.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C09381A32011A8A500881CB5 /* Traily3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Traily3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C09381A62011A8A500881CB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C09381A82011A8A500881CB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C09381A82011A8A500881CB5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		C09381AB2011A8A500881CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C09381AE2011A8A500881CB5 /* Traily3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Traily3.xcdatamodel; sourceTree = "<group>"; };
 		C09381B02011A8A500881CB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C09381B32011A8A500881CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C09381B52011A8A500881CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C09381BC2011A9FB00881CB5 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C09381BD2011A9FB00881CB5 /* Mapbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +58,7 @@
 		C093819A2011A8A500881CB5 = {
 			isa = PBXGroup;
 			children = (
+				C09381BC2011A9FB00881CB5 /* Mapbox.framework */,
 				C09381A52011A8A500881CB5 /* Traily3 */,
 				C09381A42011A8A500881CB5 /* Products */,
 			);
@@ -57,7 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				C09381A62011A8A500881CB5 /* AppDelegate.swift */,
-				C09381A82011A8A500881CB5 /* ViewController.swift */,
+				C09381A82011A8A500881CB5 /* MapViewController.swift */,
 				C09381AA2011A8A500881CB5 /* Main.storyboard */,
 				C09381B02011A8A500881CB5 /* Assets.xcassets */,
 				C09381B22011A8A500881CB5 /* LaunchScreen.storyboard */,
@@ -77,6 +96,8 @@
 				C093819F2011A8A500881CB5 /* Sources */,
 				C09381A02011A8A500881CB5 /* Frameworks */,
 				C09381A12011A8A500881CB5 /* Resources */,
+				C09381BF2011A9FB00881CB5 /* Embed Frameworks */,
+				C09381C02011AA1300881CB5 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -134,12 +155,28 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C09381C02011AA1300881CB5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework/strip-frameworks.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C093819F2011A8A500881CB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C09381A92011A8A500881CB5 /* ViewController.swift in Sources */,
+				C09381A92011A8A500881CB5 /* MapViewController.swift in Sources */,
 				C09381A72011A8A500881CB5 /* AppDelegate.swift in Sources */,
 				C09381AF2011A8A500881CB5 /* Traily3.xcdatamodeld in Sources */,
 			);
@@ -280,6 +317,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GZGUE69R79;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Traily3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ly.trailwise.Traily3;
@@ -295,6 +336,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GZGUE69R79;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Traily3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ly.trailwise.Traily3;
